@@ -10,10 +10,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Autor {
-
-    @Id
-    private String id;
+public class Autor extends Identifiable{
 
     @Column(name="primerapellido")
     private String primerApellido;
